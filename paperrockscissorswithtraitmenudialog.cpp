@@ -258,7 +258,7 @@ ribi::About ribi::prswt::MenuDialog::GetAbout() const noexcept
     "Richel Bilderbeek",
     "PaperRockScissors with trait",
     "paper-rock-scissors simulation with neutral trait",
-    "the 24th of May 2015",
+    "the 20th of November 2015",
     "2015-2015",
     "http://www.richelbilderbeek.nl/ToolPaperRockScissors.htm",
     GetVersion(),
@@ -269,18 +269,9 @@ ribi::About ribi::prswt::MenuDialog::GetAbout() const noexcept
   return a;
 }
 
-boost::shared_ptr<const ribi::Program> ribi::prswt::MenuDialog::GetProgram() const noexcept
-{
-  const boost::shared_ptr<const ribi::Program> p(
-    new ProgramPaperRockScissorsWithTrait
-  );
-  assert(p);
-  return p;
-}
-
 std::string ribi::prswt::MenuDialog::GetVersion() const noexcept
 {
-  return "1.1";
+  return "2.0";
 }
 
 std::vector<std::string> ribi::prswt::MenuDialog::GetVersionHistory() const noexcept
@@ -289,14 +280,15 @@ std::vector<std::string> ribi::prswt::MenuDialog::GetVersionHistory() const noex
     "2015-05-03: Version 0.1: initial standalone version",
     "2015-05-11: Version 1.0: conformized version",
     "2015-05-24: Version 1.1: can run from command-line, put in namespace ribi::prswt"
+    "2015-11-20: Version 2.0: moved to own GitHub"
   };
 }
 
 ribi::Help ribi::prswt::MenuDialog::GetHelp() const noexcept
 {
   return ribi::Help(
-    "PaperRockScissors",
-    "paper-rock-scissors simulation",
+    GetAbout().GetFileTitle(),
+    GetAbout().GetFileDescription(),
     {
       Help::Option('x',"width","width of the grid"),
       Help::Option('y',"height","height of the grid"),

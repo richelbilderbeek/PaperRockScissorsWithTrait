@@ -16,7 +16,7 @@
    </font>
   </property>
   <property name="windowTitle">
-   <string>PaperRockScissors</string>
+   <string>PaperRockScissorsWithTrait</string>
   </property>
   <property name="styleSheet">
    <string notr="true">QDialog { 
@@ -33,7 +33,7 @@ QPushButton { font: 48px, &quot;monospace&quot; }</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="ToolPaperRockScissorsWithTrait.qrc">:/images/ToolPaperRockScissorsWithTrait.png</pixmap>
+      <pixmap resource="PaperRockScissorsWithTrait.qrc">:/images/PaperRockScissorsWithTrait.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -81,7 +81,7 @@ QPushButton { font: 48px, &quot;monospace&quot; }</string>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources>
-  <include location="ToolPaperRockScissorsWithTrait.qrc"/>
+  <include location="PaperRockScissorsWithTrait.qrc"/>
  </resources>
  <connections/>
 </ui>
