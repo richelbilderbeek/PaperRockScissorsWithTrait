@@ -1,4 +1,4 @@
-include(../RibiLibraries/ConsoleApplication.pri)
+include(../RibiLibraries/ConsoleApplicationNoWeffcpp.pri) #Qt does not go well with -Weffc++
 include(../RibiLibraries/Boost.pri)
 
 include(../RibiClasses/CppAbout/CppAbout.pri)

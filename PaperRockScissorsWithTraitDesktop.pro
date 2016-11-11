@@ -1,4 +1,4 @@
-include(../RibiLibraries/DesktopApplicationNoWeffcpp.pri) #Qwt does not work with -Weffc++
+include(../RibiLibraries/DesktopApplicationNoWeffcpp.pri) #Qt and Qwt does not work with -Weffc++
 include(../RibiLibraries/Boost.pri)
 
 include(../RibiClasses/CppAbout/CppAbout.pri)
