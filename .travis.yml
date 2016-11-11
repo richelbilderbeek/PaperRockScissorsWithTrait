@@ -39,7 +39,7 @@ script:
   - make
   - qmake PaperRockScissorsWithTraitDesktop.pro
   - make
-  - ./PaperRockScissorsConsole --about
+  - ./PaperRockScissorsWithTraitConsole --about
   # Get code coverage
   - ./get_code_cov.sh
   - codecov
