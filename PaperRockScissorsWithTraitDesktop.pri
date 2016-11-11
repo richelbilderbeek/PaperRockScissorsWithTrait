@@ -1,13 +1,13 @@
-include(../PaperRockScissorsWithTrait/PaperRockScissorsWithTraitConsole.pri)
+include(PaperRockScissorsWithTraitConsole.pri)
 
 SOURCES += \
-    ../PaperRockScissorsWithTrait/qtpaperrockscissorswithtraitmenudialog.cpp \
-    ../PaperRockScissorsWithTrait/qtpaperrockscissorswithtraitmaindialog.cpp
+    $$PWD/qtpaperrockscissorswithtraitmenudialog.cpp \
+    $$PWD/qtpaperrockscissorswithtraitmaindialog.cpp
 
 HEADERS += \
-    ../PaperRockScissorsWithTrait/qtpaperrockscissorswithtraitmenudialog.h \
-    ../PaperRockScissorsWithTrait/qtpaperrockscissorswithtraitmaindialog.h
+    $$PWD/qtpaperrockscissorswithtraitmenudialog.h \
+    $$PWD/qtpaperrockscissorswithtraitmaindialog.h
 
 FORMS += \
-    ../PaperRockScissorsWithTrait/qtpaperrockscissorswithtraitmenudialog.ui \
-    ../PaperRockScissorsWithTrait/qtpaperrockscissorswithtraitmaindialog.ui
+    $$PWD/qtpaperrockscissorswithtraitmenudialog.ui \
+    $$PWD/qtpaperrockscissorswithtraitmaindialog.ui

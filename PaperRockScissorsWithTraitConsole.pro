@@ -6,8 +6,8 @@ include(../RibiClasses/CppFileIo/CppFileIo.pri)
 include(../RibiClasses/CppHelp/CppHelp.pri)
 include(../RibiClasses/CppMenuDialog/CppMenuDialog.pri)
 
-include(../PaperRockScissors/CppPaperRockScissors.pri)
-include(CppPaperRockScissorsWithTraitSimulation.pri)
+include(../PaperRockScissors/PaperRockScissors.pri)
+include(PaperRockScissorsWithTraitSimulation.pri)
 
 include(PaperRockScissorsWithTraitConsole.pri)
 
