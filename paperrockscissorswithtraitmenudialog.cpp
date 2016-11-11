@@ -16,9 +16,6 @@
 #include "paperrockscissors.h"
 #include "paperrockscissorswithtraitsimulation.h"
 #include "fileio.h"
-#include "richelbilderbeekprogram.h"
-#include "testtimer.h"
-#include "trace.h"
 #pragma GCC diagnostic pop
 
 ribi::prswt::MenuDialog::MenuDialog()
@@ -264,8 +261,6 @@ ribi::About ribi::prswt::MenuDialog::GetAbout() const noexcept
     GetVersion(),
     GetVersionHistory()
   );
-  a.AddLibrary("TestTimer version: " + TestTimer::GetVersion());
-  a.AddLibrary("Trace version: " + Trace::GetVersion());
   return a;
 }
 
@@ -310,21 +305,6 @@ void ribi::prswt::MenuDialog::Test() noexcept
     if (is_tested) return;
     is_tested = true;
   }
-  {
-    fileio::FileIo();
-    TestPaperRockScissors();
-    Simulation(
-      Parameters(
-        1, //const int width,
-        1, //const int height,
-        Initialization::random,
-        42 //const int rng_seed
-      )
-    );
-    Help::Test();
-  }
-
-  const TestTimer test_timer(__func__,__FILE__,1.0);
   {
     const std::vector<std::string> v = {
       "-x","4",
