@@ -35,9 +35,9 @@ before_script:
 
 script: 
   - ./download_other_githubs.sh
-  - qmake -qt=qt5 PaperRockScissorsWithTraitConsole.pro
+  - qmake PaperRockScissorsWithTraitConsole.pro
   - make
-  - qmake -qt=qt5 PaperRockScissorsWithTraitDesktop.pro
+  - qmake PaperRockScissorsWithTraitDesktop.pro
   - make
   - ./PaperRockScissorsConsole --about
   # Get code coverage
