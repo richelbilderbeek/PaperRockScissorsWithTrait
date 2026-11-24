@@ -1,5 +1,7 @@
 # PaperRockScissorsWithTrait
 
+[Go to the nicely rendered website](https://richelbilderbeek.github.io/PaperRockScissorsWithTrait/).
+
 Branch|[![Travis CI logo](TravisCI.png)](https://travis-ci.org)|[![Codecov logo](Codecov.png)](https://www.codecov.io)
 ---|---|---
 master|[![Build Status](https://travis-ci.org/richelbilderbeek/PaperRockScissorsWithTrait.svg?branch=master)](https://travis-ci.org/richelbilderbeek/PaperRockScissorsWithTrait)|[![codecov.io](https://codecov.io/github/richelbilderbeek/PaperRockScissorsWithTrait/coverage.svg?branch=master)](https://codecov.io/github/richelbilderbeek/PaperRockScissorsWithTrait/branch/master)
