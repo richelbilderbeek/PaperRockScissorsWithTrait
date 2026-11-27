@@ -1,11 +1,8 @@
 # PaperRockScissorsWithTrait
 
-[Go to the nicely rendered website](https://richelbilderbeek.github.io/PaperRockScissorsWithTrait/).
+[![Codecov](https://codecov.io/gh/richelbilderbeek/PaperRockScissorsWithTrait/branch/main/graph/badge.svg)](https://codecov.io/gh/richelbilderbeek/PaperRockScissorsWithTrait)
 
-Branch|[![Travis CI logo](TravisCI.png)](https://travis-ci.org)|[![Codecov logo](Codecov.png)](https://www.codecov.io)
----|---|---
-master|[![Build Status](https://travis-ci.org/richelbilderbeek/PaperRockScissorsWithTrait.svg?branch=master)](https://travis-ci.org/richelbilderbeek/PaperRockScissorsWithTrait)|[![codecov.io](https://codecov.io/github/richelbilderbeek/PaperRockScissorsWithTrait/coverage.svg?branch=master)](https://codecov.io/github/richelbilderbeek/PaperRockScissorsWithTrait/branch/master)
-develop|[![Build Status](https://travis-ci.org/richelbilderbeek/PaperRockScissorsWithTrait.svg?branch=develop)](https://travis-ci.org/richelbilderbeek/PaperRockScissorsWithTrait)|[![codecov.io](https://codecov.io/github/richelbilderbeek/PaperRockScissorsWithTrait/coverage.svg?branch=develop)](https://codecov.io/github/richelbilderbeek/PaperRockScissorsWithTrait/branch/develop)
+[Go to the nicely rendered website](https://richelbilderbeek.github.io/PaperRockScissorsWithTrait/).
 
 C++ spatial paper-rock-scissors simulation in which a neutral trait co-evolves.
 
